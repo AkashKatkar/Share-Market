@@ -63,8 +63,8 @@
                 $nifty_put_option_arr[$a]['changeinoi'] = $result['records']['data'][$val]['PE']['changeinOpenInterest'];
                 $a++;
             }
-            $oi_pcr = $total_pe_oi/$total_ce_oi;
-            $coi_pcr = $total_pe_coi/$total_ce_coi;
+            $oi_pcr = $total_pe_oi / $total_ce_oi;
+            $coi_pcr = $total_pe_coi / $total_ce_coi;
 
             $final_oi = ($total_pe_oi + $total_pe_coi) / ($total_ce_oi + $total_ce_coi);
         }
